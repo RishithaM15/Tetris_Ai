@@ -12,7 +12,7 @@ class CUSTOM_AI_MODEL:
         if self.weights is None:
             # Default weights, updated to include the "holes" feature
             # self.weights = np.array([random.uniform(-1, 0) for feature in range(nfeatures)])
-            self.weights = np.array([-0.63725271, -0.29199838, -0.07409222, -0.37546867])
+            self.weights = np.array([-0.93725271, -0.29199838, -0.07409222, -0.37546867])
         elif mutate:
             self.weights = weights * (np.array([np.random.normal(1, noise) for _ in range(nfeatures)]))
 
