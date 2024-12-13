@@ -13,8 +13,8 @@ def main():
     #     textfile.write(str(dropped) + ", " + str(rows) + "\n")
     # textfile.close()
     g = Game(sys.argv[1])
-    g.run_no_visual()
-    # g.run()
+    # g.run_no_visual()
+    g.run()
 
 
 if __name__ == "__main__":
