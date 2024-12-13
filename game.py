@@ -1,10 +1,5 @@
 from board import Board
 from time import sleep
-from greedy import Greedy_AI
-
-from genetic import Genetic_AI
-from randomChoice import RandomChoice_NOT_AI
-from mcts import MCTS_AI
 from custom_model import CUSTOM_AI_MODEL
 from piece import Piece
 import pygame
